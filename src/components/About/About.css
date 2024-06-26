@@ -1,0 +1,59 @@
+.about {
+  background-color: #f1f1f1;
+  color: #152d41;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 960px;
+}
+
+.departement {
+  display: flex;
+}
+.picture {
+  flex-shrink: 0;
+  border-radius: 100%;
+  background-image: url("../../images/harry.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #c4c4c4;
+  width: 200px;
+  height: 200px;
+}
+
+.picture-one {
+  margin-right: 50px;
+}
+
+.picture-two {
+  margin-left: 50px;
+}
+.departement:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.person {
+  color: #000000;
+}
+
+.personName {
+  padding: 25px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.personDescription {
+  padding: 25px 0;
+  font-weight: 400;
+  font-size: 18px;
+}

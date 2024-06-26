@@ -1,20 +1,20 @@
-import React from "react";
+import "./reset.css";
 import "./styles.css";
-import Header from "./components/Header";
-import About from "./components/About";
-import Offer from "./components/Offer";
-import Footer from "./components/Footer";
+import Header from "./components//Header/Header.js";
+import About from "./components/About/About.js";
+import Offer from "./components/Offer/Offer.js";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
       <main>
         <About />
         <Offer />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

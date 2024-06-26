@@ -1,5 +1,11 @@
 import React from "react";
-import "../styles.css";
+import "../../styles.css";
+import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookSquare,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -7,8 +13,8 @@ function Footer() {
       <div className="footer-one-container">
         <p>Nazwa firmy - wszelkie prawa zastrzeżone, 2024</p>
         <div className="icons">
-          <i className="fa-brands fa-instagram"></i>
-          <i className="fa-brands fa-square-facebook"></i>
+          <FontAwesomeIcon icon={faInstagram} />
+          <FontAwesomeIcon icon={faFacebookSquare} />
         </div>
       </div>
     </footer>

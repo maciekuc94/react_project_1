@@ -1,6 +1,6 @@
 import React from "react";
-import background from "../images/tlo_sekcji.jpg";
-import "../styles.css";
+import "../../styles.css";
+import "./Header.css";
 
 function Header() {
   return (
@@ -22,13 +22,15 @@ function Header() {
         </div>
       </nav>
       <section className="section-1">
-        <div
-          className="background"
-          style={{ backgroundImage: `url(${background})` }}>
+        <div className="background">
           <div className="background-shadow"></div>
           <div className="background-container">
-            <h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
-            <p>Nie wierz nam na słowo - sprawdź</p>
+            <h1 className="background-title">
+              Nasza firma oferuje najwyższej jakości produkty.
+            </h1>
+            <p className="background-description">
+              Nie wierz nam na słowo - sprawdź
+            </p>
             <a className="offer-button" href="#offer">
               oferta
             </a>

@@ -1,0 +1,30 @@
+.offer {
+  background: #405d78;
+  width: 100%;
+}
+
+.offer-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 960px;
+}
+
+.offer-company {
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 36px;
+}
+.offer-box {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 50px;
+  row-gap: 50px;
+  justify-content: center;
+  margin: auto;
+  color: black;
+  font-weight: 400;
+  font-size: 24px;
+}
