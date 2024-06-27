@@ -1,5 +1,3 @@
-import React from "react";
-import "../../styles.css";
 import "./OfferBox.css";
 
 function OfferBox({ text, isNew }) {
